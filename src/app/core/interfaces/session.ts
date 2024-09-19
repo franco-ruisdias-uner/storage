@@ -1,4 +1,4 @@
-export interface User {
-  email: string;
-  password: string;
+export interface Session {
+  jwtToken: string;
+  refreshToken: string;
 }
